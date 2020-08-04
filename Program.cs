@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyNotes.DesignPatterns.Creational.FactoryMethod;
+using System;
 
 namespace MyNotes
 {
@@ -6,7 +7,7 @@ namespace MyNotes
     {
         static void Main(string[] args)
         {
-            
+            new Client();
         }
     }
 }

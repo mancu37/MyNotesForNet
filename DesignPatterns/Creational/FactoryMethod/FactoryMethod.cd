@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyNotes.DesignPatterns.Creational.FactoryMethod.Truck">
+    <Position X="6.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DesignPatterns\Creational\FactoryMethod\Classes\Truck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.231" />
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Creational.FactoryMethod.Ship">
+    <Position X="8.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DesignPatterns\Creational\FactoryMethod\Classes\Ship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.252" />
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Creational.FactoryMethod.TruckCreator">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Creational\FactoryMethod\Classes\TruckCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Creational.FactoryMethod.ShipCreator">
+    <Position X="3" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Creational\FactoryMethod\Classes\ShipCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MyNotes.DesignPatterns.Creational.FactoryMethod.ICreatorFactory">
+    <Position X="1.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Creational\FactoryMethod\Interfaces\ICreatorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyNotes.DesignPatterns.Creational.FactoryMethod.ITransport">
+    <Position X="7.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DesignPatterns\Creational\FactoryMethod\Interfaces\ITransport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
