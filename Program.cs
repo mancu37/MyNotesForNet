@@ -1,13 +1,20 @@
-﻿using MyNotes.DesignPatterns.Creational.FactoryMethod;
-using System;
-
-namespace MyNotes
+﻿namespace MyNotes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            new Client();
+            TestAbstractFactory();
+        }
+
+        private static void TestFactoryMethod()
+        {
+            new DesignPatterns.Creational.FactoryMethod.Client();
+        }
+
+        public static void TestAbstractFactory()
+        {
+            new DesignPatterns.Creational.AbstractFactory.Client();
         }
     }
 }
