@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            TestAbstractFactory();
+            //TestFactoryMethod();
+            //TestAbstractFactory();
+            //TestBuilder();
+            //TestPrototype();
         }
 
         private static void TestFactoryMethod()
@@ -15,6 +18,16 @@
         public static void TestAbstractFactory()
         {
             new DesignPatterns.Creational.AbstractFactory.Client();
+        }
+
+        public static void TestBuilder()
+        {
+            new DesignPatterns.Creational.Builder.Client();
+        }
+
+        public static void TestPrototype()
+        {
+            new DesignPatterns.Creational.Prototype.Client();
         }
     }
 }

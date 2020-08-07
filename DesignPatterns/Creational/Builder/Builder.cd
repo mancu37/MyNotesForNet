@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyNotes.DesignPatterns.Creational.Builder.Classes.HouseBuilder">
+    <Position X="5.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAgAAAAAAAEAAAAAAAAAAAAAAAAAEAADAKAAAA=</HashCode>
+      <FileName>DesignPatterns\Creational\Builder\Classes\HouseBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Creational.Builder.Classes.House">
+    <Position X="5.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignPatterns\Creational\Builder\Classes\House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Creational.Builder.Classes.Director">
+    <Position X="9.5" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQACAA=</HashCode>
+      <FileName>DesignPatterns\Creational\Builder\Classes\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MyNotes.DesignPatterns.Creational.Builder.Interfaces.IHouseBuilder">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAgAAAAAAAEAAAAAAAAAAAAAAAAAAAABAKAAAA=</HashCode>
+      <FileName>DesignPatterns\Creational\Builder\Interfaces\IHouseBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
