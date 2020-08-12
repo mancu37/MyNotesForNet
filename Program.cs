@@ -8,6 +8,13 @@
             //TestAbstractFactory();
             //TestBuilder();
             //TestPrototype();
+
+            SOLIDPrinciplesTest();
+        }
+
+        private static void SOLIDPrinciplesTest()
+        {
+            new SOLID_Principles.Liskov.Example1.Client();
         }
 
         private static void TestFactoryMethod()
