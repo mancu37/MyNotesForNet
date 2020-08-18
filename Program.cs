@@ -9,7 +9,9 @@
             //TestBuilder();
             //TestPrototype();
 
-            SOLIDPrinciplesTest();
+            TestAdapterPatter();
+
+            //SOLIDPrinciplesTest();
         }
 
         private static void SOLIDPrinciplesTest()
@@ -17,6 +19,7 @@
             new SOLID_Principles.Liskov.Example1.Client();
         }
 
+        #region Creational Patters 
         private static void TestFactoryMethod()
         {
             new DesignPatterns.Creational.FactoryMethod.Client();
@@ -36,5 +39,14 @@
         {
             new DesignPatterns.Creational.Prototype.Client();
         }
+
+        #endregion
+
+        #region Structural Pattern
+        private static void TestAdapterPatter()
+        {
+            new DesignPatterns.Structural.Adapter.Client();
+        }
+        #endregion
     }
 }
