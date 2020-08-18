@@ -9,9 +9,11 @@
             //TestBuilder();
             //TestPrototype();
 
-            TestAdapterPatter();
+            //TestAdapterPatter();
 
             //SOLIDPrinciplesTest();
+
+            new POO.Client();
         }
 
         private static void SOLIDPrinciplesTest()
