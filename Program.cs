@@ -10,10 +10,11 @@
             //TestPrototype();
 
             //TestAdapterPatter();
+            TestBridgePattern();
 
             //SOLIDPrinciplesTest();
 
-            new POO.Client();
+            //new POO.Client();
         }
 
         private static void SOLIDPrinciplesTest()
@@ -48,6 +49,11 @@
         private static void TestAdapterPatter()
         {
             new DesignPatterns.Structural.Adapter.Client();
+        }
+
+        private static void TestBridgePattern()
+        {
+            new DesignPatterns.Structural.Bridge.Client();
         }
         #endregion
     }

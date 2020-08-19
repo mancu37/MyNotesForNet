@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="MyNotes.DesignPatterns.Structural.Bridge.Classes.Abstraction">
+    <Position X="4.5" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAEIgAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Structural\Bridge\Classes\Abstraction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IImplementation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Structural.Bridge.Classes.ImplementationInWindows">
+    <Position X="11.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Structural\Bridge\Classes\ImplementationInWindows.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyNotes.DesignPatterns.Structural.Bridge.Classes.ImplementationInLinux">
+    <Position X="9.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Structural\Bridge\Classes\ImplementationInLinux.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MyNotes.DesignPatterns.Structural.Bridge.Interfaces.IImplementation">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>DesignPatterns\Structural\Bridge\Interfaces\IImplementation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
